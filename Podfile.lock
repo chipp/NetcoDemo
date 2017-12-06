@@ -1,0 +1,47 @@
+PODS:
+  - Astrolabe/Core (3.0.5):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+    - SnapKit (~> 4.0)
+  - Astrolabe/Loaders (3.0.5):
+    - Astrolabe/Core
+    - Gnomon/Core (~> 3.0)
+  - FormatterKit/Resources (1.8.2)
+  - FormatterKit/URLRequestFormatter (1.8.2):
+    - FormatterKit/Resources
+  - Gnomon/Core (3.1.1):
+    - FormatterKit/URLRequestFormatter (>= 1.8.2)
+    - RxSwift (~> 4.0)
+  - Gnomon/Decodable (3.1.1):
+    - Gnomon/Core
+  - Gnomon/JSON (3.1.1):
+    - Gnomon/Core
+    - SwiftyJSON (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Astrolabe/Loaders (~> 3.0)
+  - Gnomon/Decodable (~> 3.0)
+  - Gnomon/JSON (~> 3.0)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Astrolabe: fd6995508992dde9a25311e0d8e01efdd59f0b35
+  FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
+  Gnomon: 05a0b538c8043f149c798a78605461ee5583c38d
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 697b9839437766ca1a5d5c0e2c94cddddfbea590
+
+COCOAPODS: 1.3.1
